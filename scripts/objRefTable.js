@@ -52,12 +52,12 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Acts.GoToLayout,
 		C3.Plugins.System.Acts.CreateObject,
 		C3.Plugins.Sprite.Cnds.OnCreated,
-		C3.Plugins.Sprite.Cnds.OnAnimFinished,
+		C3.Plugins.Mouse.Cnds.OnAnyClick,
+		C3.Plugins.Touch.Cnds.OnTouchStart,
+		C3.Plugins.LocalStorage.Cnds.OnAllGetsComplete,
 		C3.Plugins.PlatformInfo.Cnds.IsOniOS,
 		C3.Plugins.PlatformInfo.Cnds.IsOnAndroid,
-		C3.Plugins.PlatformInfo.Cnds.IsOnWindows,
-		C3.Plugins.Mouse.Cnds.OnAnyClick,
-		C3.Plugins.Touch.Cnds.OnTouchStart
+		C3.Plugins.PlatformInfo.Cnds.IsOnWindows
 	];
 };
 self.C3_JsPropNameTable = [
